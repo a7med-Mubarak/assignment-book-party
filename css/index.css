@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{scroll-behavior: smooth; }
+
+
+.end{
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover ;
+    width: 100%; 
+    height: 80%; 
+}
+
+.icon-end{
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #202124;
+    border-width: 100%;
+    width: 30px;
+    height: 35px;
+    margin-right: 10px;
+    transition: .5s;
+
+}
+.icon-end:hover{
+    background-color: whitesmoke;
+    box-shadow: 0 0 0 6px #202124;
+}
+.singerOne{
+    width: 100%;
+    height: 8%;
+    background-color: #202124;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.singerTwo{
+    width: 100%;
+    height: 8%;
+    background-color: #202124;
+    color: whitesmoke;   
+    cursor: pointer;
+}
+.singerThree{
+    width: 100%;
+    height: 8%;
+    background-color: #202124;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.singerFour{
+    width: 100%;
+    height: 8%;
+    background-color: #202124;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.info{
+    background-color: inherit;
+}
+.pr2 , .pr3 , .pr4 {
+    display: none;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    box-shadow: 0 0 0 5px #202124;
+}
+.form-control:hover{
+    
+    background-color: whitesmoke;
+    color: whitesmoke;
+    box-shadow: 0 0 0 6px #202124;   
+}
+.i-fixed{
+    position: absolute;
+    color: white; 
+    left: .5%; 
+    top: 50%;
+    font-size: xx-large;
+    cursor: pointer;
+    transition: 1s;
+}
+.nav{
+    position: fixed;
+    height: 100%;
+    width: 15%;
+    background-color: #202124;
+    color: white;
+    display: none;
+
+}
+.exitMark{
+    font-size: xx-large;
+    position: absolute;
+    right: 23px;
+    top: 20px;
+    cursor: pointer;
+    transition: .2222s;
+}
+.liDetl{
+    margin: 30% 0;
+    font-size: 30px;
+    transition: .2222s;
+    color: white;
+    text-decoration: none;
+}
+.exitMark:hover{
+    color: #856453;
+}
+.liDetl:hover{
+    color: #856453;
+}
+.progress{
+   background-color: #202124;
+   height: 5px;
+   width: 0;
+   display: block;
+   position: relative;
+   top: -2px;
+   transition: .5s;
+}
+.counter{
+
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    padding: 5px;
+}
+.zero{
+    font-weight: bold;
+    color: red;
+}
